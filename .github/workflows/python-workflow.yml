@@ -14,6 +14,5 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: |
-          pip install -r SKLTIM2025/github-actions-lab1-q1/.github/requirements.txt
+        run: pip install -r .github/workflows/requirements.txt
 
